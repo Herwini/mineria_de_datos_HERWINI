@@ -1,0 +1,101 @@
+{
+  "panorama": {
+    "Medicaci\u00f3n": {
+      "inicio": 19.4,
+      "fin": 23.1,
+      "pico": 23.5,
+      "delta_pp": 3.700000000000003,
+      "delta_pct": 19.072164948453622
+    },
+    "Terapia": {
+      "inicio": 8.7,
+      "fin": 11.3,
+      "pico": 11.3,
+      "delta_pp": 2.6000000000000014,
+      "delta_pct": 29.885057471264385
+    },
+    "Atenci\u00f3n (cualquiera)": {
+      "inicio": 22.4,
+      "fin": 26.8,
+      "pico": 27.1,
+      "delta_pp": 4.400000000000002,
+      "delta_pct": 19.642857142857153
+    },
+    "Brecha de acceso": {
+      "inicio": 9.2,
+      "fin": 11.5,
+      "pico": 12.4,
+      "delta_pp": 2.3000000000000007,
+      "delta_pct": 25.00000000000001
+    }
+  },
+  "edad_brechas": {
+    "18 - 29 years": 19.848484848484848,
+    "30 - 39 years": 15.566666666666665,
+    "40 - 49 years": 11.845454545454544,
+    "50 - 59 years": 9.14848484848485,
+    "60 - 69 years": 5.775757575757575,
+    "70 - 79 years": 3.2636363636363637,
+    "80 years and above": 3.4038461538461537
+  },
+  "cambio_medicacion_pct": {
+    "18 - 29 years": 22.994652406417117,
+    "30 - 39 years": 34.42622950819673,
+    "40 - 49 years": 10.294117647058831,
+    "50 - 59 years": 14.150943396226415,
+    "60 - 69 years": 15.228426395939088,
+    "70 - 79 years": 25.00000000000001,
+    "80 years and above": 1.4492753623188355
+  },
+  "cluster_metricas": {
+    "silueta": 0.4339663827276879,
+    "db": 0.6741718561435582,
+    "ch": 54.42282352033868
+  },
+  "clasificador": {
+    "accuracy": 0.9826589595375722,
+    "f1": 0.9387755102040817,
+    "recall": 1.0,
+    "precision": 0.8846153846153846
+  },
+  "p_value_edad": 3.538563228910355e-43,
+  "forecast": {
+    "A. Resilientes": {
+      "mae": 0.3344703888703882,
+      "mse": 0.1437684969215112,
+      "mape": 4.050488862200438,
+      "tendencia_pp_por_periodo": 0.026904454804454792,
+      "pronostico_final": 8.605423543123543,
+      "valor_actual": 8.391666666666667
+    },
+    "B. Atendidos": {
+      "mae": 0.24481448921448923,
+      "mse": 0.09309747579228818,
+      "mape": 1.7383164809898832,
+      "tendencia_pp_por_periodo": 0.025348148148148127,
+      "pronostico_final": 13.930950427350426,
+      "valor_actual": 14.26
+    },
+    "C. Crisis silenciosa": {
+      "mae": 3.7299175824175883,
+      "mse": 14.31526266906175,
+      "mape": 13.18555140274033,
+      "tendencia_pp_por_periodo": 0.6408241758241758,
+      "pronostico_final": 36.9360989010989,
+      "valor_actual": 28.9
+    }
+  },
+  "umbral_crisis": 17.25,
+  "top_features": {
+    "Terapia": 0.3660738020044857,
+    "Atenci\u00f3n (cualquiera)": 0.1919583073269929,
+    "Medicaci\u00f3n": 0.13839041228492943,
+    "Subgroup_18 - 29 years": 0.0898155007261426,
+    "Subgroup_Non-Hispanic, other races and multiple races": 0.030019719364133765,
+    "Group_By Sexual orientation": 0.02705602384943274,
+    "Group_By Education": 0.018544901285027324,
+    "Subgroup_30 - 39 years": 0.01697547186337312,
+    "Subgroup_With disability": 0.016431948557759368,
+    "Group_By Age": 0.01588620719203387
+  }
+}

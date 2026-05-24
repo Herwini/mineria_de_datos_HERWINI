@@ -1,0 +1,14 @@
+metrica,valor
+Brecha 18-29,19.8%
+Brecha 70-79,3.3%
+Pico brecha nacional (Dic 2020),12.4%
+Brecha trans (promedio),39.4%
+Brecha bisexual (promedio),31.0%
+Brecha con discapacidad (promedio),24.1%
+Cambio % medicación 30-39 años,+34%
+Cambio % medicación 80+ años,+1%
+Silueta clustering k=3,0.434
+Accuracy Random Forest,0.983
+F1-Score Random Forest,0.939
+Kruskal-Wallis p-value (Edad),3.54e-43
+Subgrupos clusterizados,26
